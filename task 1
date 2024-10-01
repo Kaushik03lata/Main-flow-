@@ -1,0 +1,132 @@
+print("welcome to this session")
+Data types and variables
+name="lata kaushik"
+age=20
+marks=25.3
+print("welcome",name)
+Operators
+#arithmetic operators
+a=20
+b=50
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)#remainder
+print(a**b)#a^b
+#relarional operators and it returns boolean values
+a=50
+b=40
+print(a==b)
+print(a!=b)
+print(a>b)
+print(a<b)
+print(a<=b)
+print(a>=b)
+#logical operator
+a=True
+b=False
+print(a and b)
+print(a or b)
+print(not b)
+strings
+#concatenation
+str1="hello"
+str2="world"
+final_str=str1+ " "+ str2
+print(final_str)
+#length of string
+str="helloworld"
+print(len(str1))
+print(len(str))
+print(str[1:4])
+strings methods
+str="My name is Lata kaushik"
+#str.endswith("ik")
+#str.capitalize()
+#str.replace("kaushik","soni")
+#str.find("kaushik")
+str.count("a")
+print(type(str))
+control statements
+marks=int(input("enter your grade"))
+
+if(marks>=90):
+  grade="A"
+elif(marks >= 80 and marks <90):
+  grade="B"
+
+elif(marks >= 70 and marks < 80):
+  grade="c"
+else:
+  grade="D"
+print("grade of the students:",grade)
+
+
+
+light="green"
+if( light=="red"):
+  print("stop")
+elif(light=="green"):
+  print("go")
+else:
+   print ("light is broken")
+
+
+
+age = 95
+if(age>=18):
+  if(age>=80):
+    print("can not drive")
+  else:
+    print("can drive")
+else:
+    print("can not drive")
+
+
+list
+#list=["lata","soni","shubh","kaushik"]
+#print(list)
+mov1=input("enter the movie name")
+mov2=input("enter the movie name")
+mov3=input("enter the movie name")
+mov4=input("enter the movie name")
+mov5=input("enter the movie name")
+list=[mov1,mov2,mov3,mov4,mov5]
+print(list)
+
+methods
+list=[8,9,4,38,25,90]
+#list.append(56)
+#list.sort()
+#list.sort(reverse=True)
+#list.reverse()
+#list.insert(2,"lata")
+print(len(list))
+print(type(list))
+
+
+
+dictionary
+#it works in pairs , built in, mutable
+#word=meaning ("key":value)
+info = {
+    "key": "value",
+    "name": "lata",
+    "age": 20,
+    "marks": 25.3,
+    "num":[1,2,3,4]
+}
+
+print(info["name"])
+info["name"]="soni"
+print(info)
+print(type(info))
+
+
+tuple
+#single value tuple
+tup=(1,)
+print(tup)
+print(type(tup))
+
